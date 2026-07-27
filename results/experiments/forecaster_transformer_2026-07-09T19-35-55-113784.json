@@ -1,0 +1,16 @@
+{
+  "name": "forecaster_transformer",
+  "timestamp": "2026-07-09T19:35:55.113784",
+  "config": {
+    "d_model": 64,
+    "n_heads": 4,
+    "n_layers": 3,
+    "lr": 0.0001
+  },
+  "metrics": {
+    "mape": 12.1,
+    "rmse": 6.2,
+    "val_loss": 1.12
+  },
+  "notes": "Transformer tanpa cross-modal"
+}

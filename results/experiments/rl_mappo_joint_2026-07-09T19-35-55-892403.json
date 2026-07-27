@@ -1,0 +1,16 @@
+{
+  "name": "rl_mappo_joint",
+  "timestamp": "2026-07-09T19:35:55.892403",
+  "config": {
+    "lr": 0.0003,
+    "clip_eps": 0.2,
+    "entropy_coef": 0.01,
+    "n_stores": 5
+  },
+  "metrics": {
+    "avg_reward": -23241.0,
+    "service_level": 0.943,
+    "total_cost": 10045.0
+  },
+  "notes": "MAPPO joint training"
+}

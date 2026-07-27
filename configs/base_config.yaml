@@ -1,0 +1,33 @@
+project:
+  name: neurostock
+  seed: 42
+
+data:
+  raw_path: data/raw/retail_store_inventory.csv
+  n_stores: 5
+  n_products: 10
+  forecast_horizon: 14
+  lookback_window: 90
+
+forecasting:
+  d_model: 64
+  n_heads: 4
+  n_encoder_layers: 3
+  n_decoder_layers: 3
+  dropout: 0.1
+  learning_rate: 0.0001
+  batch_size: 32
+  epochs: 100
+
+rl:
+  n_store_agents: 5
+  state_dim: 32
+  action_dim: 2
+  hidden_dim: 128
+  gamma: 0.99
+  learning_rate: 0.0003
+  n_episodes: 5000
+
+joint:
+  alpha: 0.6
+  alternating_steps: 5

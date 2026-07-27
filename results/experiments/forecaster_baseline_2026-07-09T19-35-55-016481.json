@@ -1,0 +1,16 @@
+{
+  "name": "forecaster_baseline",
+  "timestamp": "2026-07-09T19:35:55.016481",
+  "config": {
+    "d_model": 64,
+    "n_heads": 4,
+    "n_layers": 3,
+    "lr": 0.0001
+  },
+  "metrics": {
+    "mape": 18.4,
+    "rmse": 9.7,
+    "val_loss": 1.45
+  },
+  "notes": "ARIMA baseline"
+}
