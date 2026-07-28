@@ -1,8 +1,8 @@
+import os
 import random
+
 import numpy as np
 import torch
-import os
-
 
 # ── 17.1.1 Global Seed ────────────────────────────────────────────────────────
 
@@ -70,8 +70,8 @@ def run_multi_seed_evaluation(train_fn, eval_fn,
 
 def print_environment_info():
     """Print informasi environment untuk dokumentasi reproducibility."""
-    import sys
     import platform
+    import sys
 
     print("── Environment Info ──")
     print(f"Python   : {sys.version}")
@@ -85,8 +85,8 @@ def print_environment_info():
 
 def save_environment_info(path: str = "docs/environment_info.md"):
     """Simpan environment info ke markdown file."""
-    import sys
     import platform
+    import sys
 
     lines = [
         "# Environment Info\n",

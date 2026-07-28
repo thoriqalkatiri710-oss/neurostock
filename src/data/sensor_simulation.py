@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 
-
 # ── 2.3.1 Simulasi Sensor ─────────────────────────────────────────────────────
 
 def simulate_temperature(

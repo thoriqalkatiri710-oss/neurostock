@@ -4,10 +4,8 @@ Audit fairness, explainability, dan human-in-the-loop.
 Bagian yang membedakan project portofolio serius dari yang asal jalan.
 """
 
-import numpy as np
 import pandas as pd
 import torch
-
 
 # ── 18.1.1 Fairness Audit ─────────────────────────────────────────────────────
 
@@ -133,7 +131,7 @@ def flag_for_human_review(recommendation: dict,
 
     print("\n── 18.3 Human-in-the-Loop Check ──")
     if needs_review:
-        print(f"⚠️  Review manusia diperlukan:")
+        print("⚠️  Review manusia diperlukan:")
         for r in reasons:
             print(f"   - {r}")
     else:

@@ -3,9 +3,7 @@ BAGIAN 14 — BUSINESS CASE & ANALISIS ROI
 Menerjemahkan hasil teknis ke dampak finansial yang dipahami pengambil keputusan bisnis.
 """
 
-import numpy as np
 import pandas as pd
-
 
 # ── 14.1.1 Cost Savings Calculation ──────────────────────────────────────────
 
@@ -163,7 +161,7 @@ if __name__ == "__main__":
         discount_rate=0.10,
         years=3
     )
-    print(f"\nHasil NPV (3 tahun, discount rate 10%):")
+    print("\nHasil NPV (3 tahun, discount rate 10%):")
     print(f"  NPV                          : {npv_result['npv']:,.2f}")
     print(f"  Payback period               : {npv_result['payback_period_years']:.2f} tahun")
     print(f"  Profitable                   : {'✅ Ya' if npv_result['is_profitable'] else '❌ Tidak'}")

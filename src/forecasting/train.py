@@ -1,8 +1,9 @@
+import logging
+
 import torch
-from torch.utils.data import DataLoader
 from torch.optim import Adam
 from torch.optim.lr_scheduler import ReduceLROnPlateau
-import logging
+from torch.utils.data import DataLoader
 
 logger = logging.getLogger(__name__)
 

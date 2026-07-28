@@ -1,7 +1,8 @@
 import torch
-import torch.nn as nn
-from .positional_encoding import PositionalEncoding
+from torch import nn
+
 from .cross_modal import CrossModalFusion
+from .positional_encoding import PositionalEncoding
 
 
 class NeuroStockForecaster(nn.Module):

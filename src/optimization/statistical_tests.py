@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
-
 # ── 6.3.1 Paired t-test ───────────────────────────────────────────────────────
 
 def compare_methods_significance(costs_method_a: list, costs_method_b: list,

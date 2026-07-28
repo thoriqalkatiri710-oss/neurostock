@@ -1,4 +1,5 @@
 import torch
+
 from .losses import GaussianNLLLoss
 from .model import NeuroStockForecaster
 

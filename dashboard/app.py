@@ -1,8 +1,8 @@
-import streamlit as st
-import requests
-import plotly.graph_objects as go
-import pandas as pd
 import numpy as np
+import pandas as pd
+import plotly.graph_objects as go
+import requests
+import streamlit as st
 
 st.set_page_config(page_title="NeuroStock Dashboard", layout="wide")
 st.title("NeuroStock — Demand Forecasting & Inventory Optimization")

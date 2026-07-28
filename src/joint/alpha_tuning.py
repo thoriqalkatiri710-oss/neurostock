@@ -1,6 +1,6 @@
-import numpy as np
-from typing import Callable
+from collections.abc import Callable
 
+import numpy as np
 
 # ── 5.4.1 Alpha Sensitivity Study ────────────────────────────────────────────
 

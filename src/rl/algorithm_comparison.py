@@ -1,8 +1,6 @@
-import numpy as np
 import gymnasium as gym
+import numpy as np
 from gymnasium import spaces
-import torch
-
 
 # ── Single-Agent Wrapper untuk SB3 ───────────────────────────────────────────
 
@@ -124,7 +122,7 @@ def compare_rl_algorithms(env_fn, algorithms: dict,
 
 if __name__ == "__main__":
     try:
-        from stable_baselines3 import SAC, TD3, PPO
+        from stable_baselines3 import PPO, SAC, TD3
 
         print("── RL Algorithm Comparison (Single-Agent) ──")
         print("Catatan: perbandingan di 1 toko — studi tambahan vs multi-agent utama\n")

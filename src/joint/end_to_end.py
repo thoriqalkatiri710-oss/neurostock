@@ -1,7 +1,6 @@
 import torch
-import numpy as np
-from src.forecasting.losses import GaussianNLLLoss
 
+from src.forecasting.losses import GaussianNLLLoss
 
 # ── 5.3.1 End-to-End Differentiable Training ─────────────────────────────────
 

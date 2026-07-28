@@ -5,9 +5,9 @@ Migrasi ke sensor IoT asli tidak memerlukan perombakan besar.
 """
 
 from abc import ABC, abstractmethod
+
 import numpy as np
 import pandas as pd
-
 
 # ── Abstract Base ─────────────────────────────────────────────────────────────
 
@@ -93,9 +93,9 @@ if __name__ == "__main__":
     source = get_sensor_source("simulated", seed=42)
     readings = source.get_readings("store_0", ("2026-01-01", "2026-01-07"))
 
-    print(f"Source type    : SimulatedSensorSource")
-    print(f"Store          : store_0")
-    print(f"Date range     : 2026-01-01 to 2026-01-07")
+    print("Source type    : SimulatedSensorSource")
+    print("Store          : store_0")
+    print("Date range     : 2026-01-01 to 2026-01-07")
     print(f"N readings     : {len(readings['dates'])}")
     print(f"Temperature    : {[round(t,1) for t in readings['temperature_c']]}")
     print(f"Foot traffic   : {[round(f,0) for f in readings['foot_traffic']]}")

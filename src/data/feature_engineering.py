@@ -1,8 +1,8 @@
+import pickle
+
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
-import pickle
-
 
 # ── 2.4.1 Lag Features ────────────────────────────────────────────────────────
 
@@ -153,7 +153,7 @@ def run_feature_pipeline(input_csv: str, output_csv: str) -> pd.DataFrame:
     val_df = df[(df["date"] > train_end) & (df["date"] <= val_end)]
     test_df = df[df["date"] > val_end]
 
-    print(f"\n── Split ──")
+    print("\n── Split ──")
     print(f"Train: {len(train_df)} rows | hingga {train_end.date()}")
     print(f"Val:   {len(val_df)} rows | hingga {val_end.date()}")
     print(f"Test:  {len(test_df)} rows | setelah {val_end.date()}")

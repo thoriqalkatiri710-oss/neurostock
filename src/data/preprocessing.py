@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 
 def load_data(path: str) -> pd.DataFrame:

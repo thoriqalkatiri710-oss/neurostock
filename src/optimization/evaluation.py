@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
-from src.forecasting.metrics import mape, rmse, coverage_probability
 
+from src.forecasting.metrics import coverage_probability, mape, rmse
 
 # ── 6.2.1 Forecasting Metrics Comparison ─────────────────────────────────────
 

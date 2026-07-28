@@ -1,12 +1,13 @@
+
+import numpy as np
+import torch
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-import torch
-import numpy as np
-import os
 
 app = FastAPI(title="NeuroStock API", version="1.0")
-import time
 import logging
+import time
+
 from fastapi import Request
 
 logger = logging.getLogger("neurostock_api")

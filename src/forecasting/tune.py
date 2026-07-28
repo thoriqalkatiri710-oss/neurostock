@@ -1,9 +1,9 @@
 import optuna
 import torch
-from src.forecasting.model import NeuroStockForecaster
-from src.forecasting.losses import GaussianNLLLoss
-from src.forecasting.train import train_forecaster
 
+from src.forecasting.losses import GaussianNLLLoss
+from src.forecasting.model import NeuroStockForecaster
+from src.forecasting.train import train_forecaster
 
 # ── 10.1.1 Objective Function ─────────────────────────────────────────────────
 
@@ -70,6 +70,7 @@ def analyze_study(study: optuna.Study):
 
 if __name__ == "__main__":
     from torch.utils.data import DataLoader, TensorDataset
+
     import src.forecasting.tune as tune_module
 
     print("── Demo Optuna Search (3 trials) ──")

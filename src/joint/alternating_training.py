@@ -1,9 +1,7 @@
-import torch
 import numpy as np
+import torch
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
-from torch.utils.tensorboard import SummaryWriter
-
 
 # ── 5.5.1 Joint Training Monitor ─────────────────────────────────────────────
 

@@ -4,10 +4,8 @@ Analisis teoritis + empiris kompleksitas komputasi sistem NeuroStock.
 """
 
 import time
-import numpy as np
-from src.rl.environment import NeuroStockEnv
-from src.rl.ppo_trainer import MAPPOTrainer
 
+from src.rl.environment import NeuroStockEnv
 
 # ── 13.1.1 Transformer Complexity ────────────────────────────────────────────
 
@@ -88,7 +86,7 @@ def benchmark_training_speed(env, n_episodes_sample: int = 50) -> float:
     elapsed = time.time() - start
     per_episode = elapsed / n_episodes_sample
 
-    print(f"\n── 13.2.2 Training Speed Benchmark ──")
+    print("\n── 13.2.2 Training Speed Benchmark ──")
     print(f"Sample episodes     : {n_episodes_sample}")
     print(f"Total elapsed       : {elapsed:.2f} detik")
     print(f"Per episode         : {per_episode:.3f} detik")

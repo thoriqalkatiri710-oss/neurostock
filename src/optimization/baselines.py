@@ -1,8 +1,7 @@
 import numpy as np
 import pandas as pd
-from statsmodels.tsa.arima.model import ARIMA
 from prophet import Prophet
-
+from statsmodels.tsa.arima.model import ARIMA
 
 # ── 6.1.1 Baseline Forecasting ───────────────────────────────────────────────
 
