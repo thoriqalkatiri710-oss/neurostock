@@ -7,7 +7,7 @@ import streamlit as st
 st.set_page_config(page_title="NeuroStock Dashboard", layout="wide")
 st.title("NeuroStock — Demand Forecasting & Inventory Optimization")
 
-API_URL = "http://localhost:8000"
+API_URL = "https://neurostock.fastapicloud.dev"
 
 
 def load_lookback(store_id: str, product_id: str) -> list:

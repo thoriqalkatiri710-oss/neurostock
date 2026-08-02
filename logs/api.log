@@ -1,1 +1,6 @@
 2026-07-08 19:38:03,146 | neurostock_api | INFO | POST /recommend | 200 | 2.541s
+2026-07-31 12:56:35,239 | neurostock_api | INFO | GET / | 404 | 0.010s
+2026-07-31 13:21:59,337 | neurostock_api | INFO | POST /recommend | 200 | 1.730s
+2026-07-31 13:22:31,906 | neurostock_api | INFO | POST /recommend | 200 | 1.820s
+2026-07-31 13:23:20,258 | neurostock_api | INFO | POST /recommend | 200 | 0.034s
+2026-07-31 13:23:42,239 | neurostock_api | INFO | POST /recommend | 200 | 0.023s
